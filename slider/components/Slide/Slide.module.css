@@ -1,0 +1,15 @@
+.slide {
+    width: 236px;
+    height: 512px ;
+    outline: 1px solid;
+    grid-area: 1 / -1;
+    transform: translateX( calc(100% * var(--offset)) );
+    
+
+}
+.slide[data-active] { 
+    outline: 1px solid red;
+}
+/* .active {
+    outline: 1px solid red;
+} */
